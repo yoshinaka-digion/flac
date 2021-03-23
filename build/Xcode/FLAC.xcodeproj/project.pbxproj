@@ -1,0 +1,3136 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		12502BBD70784BA9A0C5DC1B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B45C528C98794CF4AEA4E5E6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				5F81072EAA36F47E448130EA /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				01D454C491AD4B208D03C754 /* PBXTargetDependency */,
+				438A10ACBBEA41D489F0EADC /* PBXTargetDependency */,
+				16B2282286154694B3B728AC /* PBXTargetDependency */,
+				C8BFE682CFBB4B00A56ECF2B /* PBXTargetDependency */,
+				0DBEE8FC710F444E8577348E /* PBXTargetDependency */,
+				9DDCAF6FBDEC47F88D878B14 /* PBXTargetDependency */,
+				DDF299F00C3B4BC0955BF55D /* PBXTargetDependency */,
+				6578513BDF5C4FB68670940D /* PBXTargetDependency */,
+				0C430FB6465B4B288415E23C /* PBXTargetDependency */,
+				32EFE9BB3D864308A02C0219 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		645F55AABB0C4C10B964C7BA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0FE94043CBB84910A8FFBE3E /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				B5FE22B22570468F8DDCF8D1 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		7E04503CF70F4309B7699112 /* FLAC-doxygen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9C0A36A2D66D48A89940060C /* Build configuration list for PBXAggregateTarget "FLAC-doxygen" */;
+			buildPhases = (
+				6FE526ECAC53755E0904C2C9 /* Generate doc/CMakeFiles/FLAC-doxygen */,
+			);
+			dependencies = (
+				1BFEEBBE538340239C971612 /* PBXTargetDependency */,
+			);
+			name = "FLAC-doxygen";
+			productName = "FLAC-doxygen";
+		};
+		B4945C0E65F649B2A69A35EE /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2EF5E46DEFA84F66AD1A8A5E /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				6CCEBB89146B418EB7D03D7B /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		F185A607AF7546FF89F4AACE /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A5291FE65CC34583B3E612FF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				4B1E570B354CDD857AB5428B /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0563521FD5194E2885207C8B /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/float.c */ = {isa = PBXBuildFile; fileRef = 76C3688CCFB843DBB7B0D004 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/float.c */; };
+		09C4AE72E63E441A8E4F3A84 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/getopt/getopt1.c */ = {isa = PBXBuildFile; fileRef = 7D8E2DA031584E4087C2A6DC /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/getopt/getopt1.c */; };
+		0A2FC72BFF0244C196996A1D /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/fixed_intrin_ssse3.c */ = {isa = PBXBuildFile; fileRef = 6EE88743965B4AFD82D086EB /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/fixed_intrin_ssse3.c */; };
+		11C92ED80B044BC2AFF77E0C /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/replaygain_analysis/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 99685A071BBF449A93E920DF /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/replaygain_analysis/CMakeLists.txt */; };
+		20F88FA9F0CC4D8EB1DAEEA5 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/alloc.c */ = {isa = PBXBuildFile; fileRef = 6A27E04D020640E8A1432C62 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/alloc.c */; };
+		243F425C8D8B485A96A4F63A /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/bitreader.c */ = {isa = PBXBuildFile; fileRef = FF53DF51AADC4D87A480BEE8 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/bitreader.c */; };
+		24789F720C934F8EABC79BB0 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/utils/flacdiff/CMakeFiles/flacdiff.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 3E4EF1B3F44B4E3A93719FA0 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/utils/flacdiff/CMakeFiles/flacdiff.dir/Info.plist */; };
+		2A014DB4B99C4F32B055273F /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC++/stream_decoder.cpp */ = {isa = PBXBuildFile; fileRef = 68314ACDAC5E42E194FAC9EA /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC++/stream_decoder.cpp */; };
+		322ACB9F88814C4EBB59D8A9 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/bitmath.c */ = {isa = PBXBuildFile; fileRef = F94ADAE0F6BE4469B637D318 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/bitmath.c */; };
+		325B32246355467794DB2469 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/utf8/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9C3639400DC848918AECFC4E /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/utf8/CMakeLists.txt */; };
+		339C6B9714D44277860F8B82 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/format.c */ = {isa = PBXBuildFile; fileRef = 0BEDB44CC32C4021B2E64380 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/format.c */; };
+		3430A0904A8B428490F8DF27 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/seektable.c */ = {isa = PBXBuildFile; fileRef = 46C9E44D1A0741C4AAC41047 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/seektable.c */; };
+		359D39F630244AAC86F8886F /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/getopt/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9B8C825317A043C5B9CFA58C /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/getopt/CMakeLists.txt */; };
+		3D9598739564434C881877A8 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder_intrin_sse2.c */ = {isa = PBXBuildFile; fileRef = 45ED5C42AA9D4682BDE4ADD3 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder_intrin_sse2.c */; };
+		3FD29EBE5361486E9C036B37 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/memory.c */ = {isa = PBXBuildFile; fileRef = C9E31CEFD6CF430FA7A62D87 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/memory.c */; };
+		45D838ABE16B474586EDB349 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/utf8/charset.c */ = {isa = PBXBuildFile; fileRef = 8B0859FD02384B4F858E4AEB /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/utf8/charset.c */; };
+		4C3A609129584312A963F34D /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/metadata_iterators.c */ = {isa = PBXBuildFile; fileRef = 51756621235D4F8BA71E462A /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/metadata_iterators.c */; };
+		4E3CEB60696A435FAC8F681A /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/md5.c */ = {isa = PBXBuildFile; fileRef = C644F0730DC74D07B72D863C /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/md5.c */; };
+		4F75461B4F324EF2A23529FE /* /Users/yoshinaka/projects/buffalo/rakureco/flac/microbench/benchmark_residual.c */ = {isa = PBXBuildFile; fileRef = FDCC9A5AAE264AF2BB7035C9 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/microbench/benchmark_residual.c */; };
+		585313277E4143FEAE340109 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/bitwriter.c */ = {isa = PBXBuildFile; fileRef = 60E1F966272A4D6C836ADC7C /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/bitwriter.c */; };
+		63C2E6BFB5044136AF187566 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC++/CMakeFiles/FLAC++.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 303B664A60AC4931BA36D350 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC++/CMakeFiles/FLAC++.dir/Info.plist */; };
+		6F566BA0A3D3429C87B7936C /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/replaygain.c */ = {isa = PBXBuildFile; fileRef = B65568CB940148CE9E76C230 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/replaygain.c */; };
+		76567F2103CC4432A45BA823 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_avx2.c */ = {isa = PBXBuildFile; fileRef = 8025AFDFBAAE446DB9991692 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_avx2.c */; };
+		775FE3B9D9E34C159C13673F /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder_intrin_ssse3.c */ = {isa = PBXBuildFile; fileRef = 86C82DB211F7466D8D3E76CA /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder_intrin_ssse3.c */; };
+		841B6CB7BDF04E3CB5EE59E4 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/replaygain_synthesis/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8C5FA1D3B08F445A988EEA0E /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/replaygain_synthesis/CMakeLists.txt */; };
+		876228D997BB4A3897A4D5D6 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/getopt/CMakeFiles/getopt.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 18423B78A3674AFB9F6846AD /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/getopt/CMakeFiles/getopt.dir/Info.plist */; };
+		87814956D96945CB9DD98BCF /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_sse2.c */ = {isa = PBXBuildFile; fileRef = EB498DFC2A344761AB01B65E /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_sse2.c */; };
+		87A4DD3DE6F44207B4397E5F /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/picture.c */ = {isa = PBXBuildFile; fileRef = 121AC6CDEE4146F79D2C3F23 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/picture.c */; };
+		90D5EF3929634C9C8E45EDB1 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/fixed.c */ = {isa = PBXBuildFile; fileRef = B461B8CDA6304ECDA52954FE /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/fixed.c */; };
+		926137F9CAC24F5AA916B614 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc.c */ = {isa = PBXBuildFile; fileRef = D7AA304CECFD46848AB82E29 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc.c */; };
+		9684C6E6E9564EB1A50ECDC5 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/microbench/util.c */ = {isa = PBXBuildFile; fileRef = DCC92CF90F4B4E88885D9A56 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/microbench/util.c */; };
+		9964498A091D49798F4F835A /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 152DB7863B8F4A6CA89F0382 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/CMakeLists.txt */; };
+		9A2FAAE5748848A7B8456EB0 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/metadata_object.c */ = {isa = PBXBuildFile; fileRef = BECDFABBAB074877A5885C28 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/metadata_object.c */; };
+		9B88403BD209484489625601 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/window.c */ = {isa = PBXBuildFile; fileRef = E923AFA639BF498E92045214 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/window.c */; };
+		A3FC589215C8481098FB8C34 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_sse41.c */ = {isa = PBXBuildFile; fileRef = 66472B48B3FE4F64A553A373 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_sse41.c */; };
+		A7A5C647D70C4AF1B326CD75 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/fixed_intrin_sse2.c */ = {isa = PBXBuildFile; fileRef = 1DF9D7C15F8E4E27A0AF69AB /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/fixed_intrin_sse2.c */; };
+		A917C4A914704BBAAAD672C7 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC++/metadata.cpp */ = {isa = PBXBuildFile; fileRef = 3DCCE1843FCA4B0DA523E697 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC++/metadata.cpp */; };
+		A94422781D6E410EA90DF6AE /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/grabbag/CMakeFiles/grabbag.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 901F03405577488AA72217CB /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/grabbag/CMakeFiles/grabbag.dir/Info.plist */; };
+		AB34C440175445E4BF35AA54 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/microbench/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6A969794158B4C78B0AEB190 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/microbench/CMakeLists.txt */; };
+		AF9AD0141357457E9C382282 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC++/stream_encoder.cpp */ = {isa = PBXBuildFile; fileRef = 559DDA3230EF4518BA3AE646 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC++/stream_encoder.cpp */; };
+		B10191871E2042938AF2A9E9 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder.c */ = {isa = PBXBuildFile; fileRef = 7A7B37A63B9C4EB0AC568469 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder.c */; };
+		B663B5B8DA6D4E1BA47E1CA0 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC/CMakeFiles/FLAC.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 1A17BFA68D304385980F10C8 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC/CMakeFiles/FLAC.dir/Info.plist */; };
+		BC3E558A03A94D5FA55DDAF5 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/utf8/CMakeFiles/utf8.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 874479B73D7548B6B52BC1F9 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/utf8/CMakeFiles/utf8.dir/Info.plist */; };
+		BE735AB22CA448E1B712B1FD /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_sse.c */ = {isa = PBXBuildFile; fileRef = E52BC6F875254CB4AB3B8F02 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_sse.c */; };
+		C038CA47900A4D2ABA8AE3C2 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/cuesheet.c */ = {isa = PBXBuildFile; fileRef = 7BE09DF3F4C24576B336FFA9 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/cuesheet.c */; };
+		C15737AF2BF6428793BA4B48 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C2AFD62F73EE4CD485B36426 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/CMakeLists.txt */; };
+		C3194611C8914A0C84E44684 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/utils/flacdiff/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3C7640811EFF4ACC98192551 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/utils/flacdiff/CMakeLists.txt */; };
+		C7CCADF3019D4EAEAD935EA7 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/crc.c */ = {isa = PBXBuildFile; fileRef = D3FCD87DE9804791BB5545E1 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/crc.c */; };
+		C98B33A504544D35B61D74DA /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/snprintf.c */ = {isa = PBXBuildFile; fileRef = D242D57270E740908A7091A1 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/snprintf.c */; };
+		D1784C8913AD46139E01E29F /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_decoder.c */ = {isa = PBXBuildFile; fileRef = AA408994F24740EA9CBE537A /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_decoder.c */; };
+		D1EDDF052975433EBE7811BF /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/utils/flacdiff/main.cpp */ = {isa = PBXBuildFile; fileRef = A59F3554DFBD4CF788D9525B /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/utils/flacdiff/main.cpp */; };
+		D214593A6E914C8BABC04062 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/file.c */ = {isa = PBXBuildFile; fileRef = 28564A6550FD488AADAC67F0 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/file.c */; };
+		DDDB803ED1FA4DA3B5194570 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/replaygain_synthesis/replaygain_synthesis.c */ = {isa = PBXBuildFile; fileRef = B35417E97B92476AA0BF0E6B /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/replaygain_synthesis/replaygain_synthesis.c */; };
+		DE95FBFAB1BB482BBB170E1E /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/replaygain_analysis/CMakeFiles/replaygain_analysis.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 268D2B101F314ADCBC3D592A /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/replaygain_analysis/CMakeFiles/replaygain_analysis.dir/Info.plist */; };
+		DFE05881A3364613B76608FC /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder_framing.c */ = {isa = PBXBuildFile; fileRef = D2F3E5C9FAF14122A1DCFC31 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder_framing.c */; };
+		E4D6695B4C6849929B3E702A /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/microbench/CMakeFiles/benchmark_residual.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = B6EF73B739854ED7AAE08F14 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/microbench/CMakeFiles/benchmark_residual.dir/Info.plist */; };
+		E5C20A4AA3FC4CECBE5AF7BE /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/replaygain_analysis/replaygain_analysis.c */ = {isa = PBXBuildFile; fileRef = 30C831AA77FD4DA8BE0D6F88 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/replaygain_analysis/replaygain_analysis.c */; };
+		E9CBA1DFF71A4FEB9A5EA92E /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/getopt/getopt.c */ = {isa = PBXBuildFile; fileRef = 31407C763A404E6EBA41F885 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/getopt/getopt.c */; };
+		F41A22128CFE497D849D3240 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/utf8/utf8.c */ = {isa = PBXBuildFile; fileRef = 6648AAF3D1DC4D66BA884DA0 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/utf8/utf8.c */; };
+		F42860C6A089400485EF44FD /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder_intrin_avx2.c */ = {isa = PBXBuildFile; fileRef = 240ED625ABDE4AC883CE377C /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder_intrin_avx2.c */; };
+		F49F01A3F94846F8B69AB98D /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/cpu.c */ = {isa = PBXBuildFile; fileRef = 4AB71C5859534D82A954F27D /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/cpu.c */; };
+		F6198D64E12D40BA9B044FA8 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/utf8/iconvert.c */ = {isa = PBXBuildFile; fileRef = A10C1AF7A9E1454BB4502BB8 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/utf8/iconvert.c */; };
+		F85A010BC5954810A0F28710 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_vsx.c */ = {isa = PBXBuildFile; fileRef = B8535A4B720247A0A4035BCF /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_vsx.c */; };
+		F927BCA4D3F34191A027B5F5 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC++/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FBDE2070BAFC427D905088DD /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC++/CMakeLists.txt */; };
+		FD9E5B6785064A14AACC7E22 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/replaygain_synthesis/CMakeFiles/replaygain_synthesis.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 2052E634C7284E25A31EB87C /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/replaygain_synthesis/CMakeFiles/replaygain_synthesis.dir/Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0E6E9B1C93A843D2A8E8C915 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		452C775D3A7845B88FC6162B /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		62F006363EF042D4AD5FFECB /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		83AA711DB4934CBF93007BB4 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		04C3F2625ACA43D4AC4E69F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFA8A4DBF39F4372B0CD92FE;
+			remoteInfo = replaygain_synthesis;
+		};
+		0EC24179B72042D29DA64209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F185A607AF7546FF89F4AACE;
+			remoteInfo = ZERO_CHECK;
+		};
+		115FD28D8AF641929BCD55DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C21A0DBD10904E89B27F2CA9;
+			remoteInfo = flacdiff;
+		};
+		1213BE5B4B814AB9AC4334D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 206822B0450F4244A3C5567F;
+			remoteInfo = FLAC;
+		};
+		16968F40518A4771B99200D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F185A607AF7546FF89F4AACE;
+			remoteInfo = ZERO_CHECK;
+		};
+		1868DB949C234AAA9A048C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B0B4BC095C4A1F95387A99;
+			remoteInfo = replaygain_analysis;
+		};
+		27914B3952F547B6A32E289A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F185A607AF7546FF89F4AACE;
+			remoteInfo = ZERO_CHECK;
+		};
+		2AB0EB84268A4FA4873AD384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B2DE3F3C60E4229828609B8;
+			remoteInfo = benchmark_residual;
+		};
+		2D2572546F4F47B7820391E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F185A607AF7546FF89F4AACE;
+			remoteInfo = ZERO_CHECK;
+		};
+		4504B3A4FFF6407289800C42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64ED2C71FED047298FCA12FE;
+			remoteInfo = "FLAC++";
+		};
+		4F2A00045FE84E18B7A4FC4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F185A607AF7546FF89F4AACE;
+			remoteInfo = ZERO_CHECK;
+		};
+		5DF4BBD5248946C6809ABDEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12502BBD70784BA9A0C5DC1B;
+			remoteInfo = ALL_BUILD;
+		};
+		64BC358DB5AF43CA87565739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 206822B0450F4244A3C5567F;
+			remoteInfo = FLAC;
+		};
+		7FBDE5E3F5CB466D9A886238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 206822B0450F4244A3C5567F;
+			remoteInfo = FLAC;
+		};
+		97A2D47B84EE4C56A95E60DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 206822B0450F4244A3C5567F;
+			remoteInfo = FLAC;
+		};
+		98683241ADAF48739C88E21F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F185A607AF7546FF89F4AACE;
+			remoteInfo = ZERO_CHECK;
+		};
+		A0B2EF2B64F54E1D98E2C499 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE049AE3BF9A4500ACBEE46E;
+			remoteInfo = getopt;
+		};
+		A2A4C9BC39674F3EBF415422 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 206822B0450F4244A3C5567F;
+			remoteInfo = FLAC;
+		};
+		AFA9E3DC669C41C592FF2480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F185A607AF7546FF89F4AACE;
+			remoteInfo = ZERO_CHECK;
+		};
+		B297B2078B184E9FA5F2B9AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12502BBD70784BA9A0C5DC1B;
+			remoteInfo = ALL_BUILD;
+		};
+		B70053CA135A4F229E0FCA9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F185A607AF7546FF89F4AACE;
+			remoteInfo = ZERO_CHECK;
+		};
+		BA22422A2BE7427FAE826B07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C637E55219E4DFA97D46C8E;
+			remoteInfo = grabbag;
+		};
+		C21509E781A34B5E8ABAAD26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 206822B0450F4244A3C5567F;
+			remoteInfo = FLAC;
+		};
+		C385C2C575F64C5D81587F47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F185A607AF7546FF89F4AACE;
+			remoteInfo = ZERO_CHECK;
+		};
+		C8B4119061CD42D1A731AA85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B0B4BC095C4A1F95387A99;
+			remoteInfo = replaygain_analysis;
+		};
+		D0F8DFB7A2E749F5A8662CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 450757BC1A154596B3656874;
+			remoteInfo = utf8;
+		};
+		D8414CD757644DBE931C6A62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B0B4BC095C4A1F95387A99;
+			remoteInfo = replaygain_analysis;
+		};
+		F6B9B7D99B83443FB6497B24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C637E55219E4DFA97D46C8E;
+			remoteInfo = grabbag;
+		};
+		F76E2AC92B0C411B8D63F18E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F185A607AF7546FF89F4AACE;
+			remoteInfo = ZERO_CHECK;
+		};
+		FD257A63A7764E1395336E56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F185A607AF7546FF89F4AACE;
+			remoteInfo = ZERO_CHECK;
+		};
+		FEB54A33B0ED4EF9A694A8A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755DC81D11E460A9B4978C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64ED2C71FED047298FCA12FE;
+			remoteInfo = "FLAC++";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0620C9ABE2E942FBB6FE3FA4 /* FLAC */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFLAC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6A93C9B5BC4E89BEBF2EEF /* replaygain_analysis */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libreplaygain_analysis.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BEDB44CC32C4021B2E64380 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/format.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = format.c; path = src/libFLAC/format.c; sourceTree = SOURCE_ROOT; };
+		121AC6CDEE4146F79D2C3F23 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/picture.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = picture.c; path = src/share/grabbag/picture.c; sourceTree = SOURCE_ROOT; };
+		152DB7863B8F4A6CA89F0382 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/libFLAC/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		18423B78A3674AFB9F6846AD /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/getopt/CMakeFiles/getopt.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/Xcode/src/share/getopt/CMakeFiles/getopt.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		1A17BFA68D304385980F10C8 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC/CMakeFiles/FLAC.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/Xcode/src/libFLAC/CMakeFiles/FLAC.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		1C6C9B30BFE04EB7ADD38E68 /* FLAC++ */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libFLAC++.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF9D7C15F8E4E27A0AF69AB /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/fixed_intrin_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fixed_intrin_sse2.c; path = src/libFLAC/fixed_intrin_sse2.c; sourceTree = SOURCE_ROOT; };
+		2052E634C7284E25A31EB87C /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/replaygain_synthesis/CMakeFiles/replaygain_synthesis.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/Xcode/src/share/replaygain_synthesis/CMakeFiles/replaygain_synthesis.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		240ED625ABDE4AC883CE377C /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder_intrin_avx2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stream_encoder_intrin_avx2.c; path = src/libFLAC/stream_encoder_intrin_avx2.c; sourceTree = SOURCE_ROOT; };
+		268D2B101F314ADCBC3D592A /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/replaygain_analysis/CMakeFiles/replaygain_analysis.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/Xcode/src/share/replaygain_analysis/CMakeFiles/replaygain_analysis.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		28564A6550FD488AADAC67F0 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/file.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = file.c; path = src/share/grabbag/file.c; sourceTree = SOURCE_ROOT; };
+		303B664A60AC4931BA36D350 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC++/CMakeFiles/FLAC++.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "build/Xcode/src/libFLAC++/CMakeFiles/FLAC++.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		30C831AA77FD4DA8BE0D6F88 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/replaygain_analysis/replaygain_analysis.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = replaygain_analysis.c; path = src/share/replaygain_analysis/replaygain_analysis.c; sourceTree = SOURCE_ROOT; };
+		31407C763A404E6EBA41F885 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/getopt/getopt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = getopt.c; path = src/share/getopt/getopt.c; sourceTree = SOURCE_ROOT; };
+		3B770D4E4E5C4CB6BFEEE785 /* grabbag */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgrabbag.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7640811EFF4ACC98192551 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/utils/flacdiff/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/utils/flacdiff/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3DCCE1843FCA4B0DA523E697 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC++/metadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = metadata.cpp; path = "src/libFLAC++/metadata.cpp"; sourceTree = SOURCE_ROOT; };
+		3E4EF1B3F44B4E3A93719FA0 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/utils/flacdiff/CMakeFiles/flacdiff.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/Xcode/src/utils/flacdiff/CMakeFiles/flacdiff.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		45ED5C42AA9D4682BDE4ADD3 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder_intrin_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stream_encoder_intrin_sse2.c; path = src/libFLAC/stream_encoder_intrin_sse2.c; sourceTree = SOURCE_ROOT; };
+		46C9E44D1A0741C4AAC41047 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/seektable.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = seektable.c; path = src/share/grabbag/seektable.c; sourceTree = SOURCE_ROOT; };
+		4AB71C5859534D82A954F27D /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/cpu.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cpu.c; path = src/libFLAC/cpu.c; sourceTree = SOURCE_ROOT; };
+		51756621235D4F8BA71E462A /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/metadata_iterators.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = metadata_iterators.c; path = src/libFLAC/metadata_iterators.c; sourceTree = SOURCE_ROOT; };
+		556E49BB95914DE9AA286ED2 /* getopt */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgetopt.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		559DDA3230EF4518BA3AE646 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC++/stream_encoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stream_encoder.cpp; path = "src/libFLAC++/stream_encoder.cpp"; sourceTree = SOURCE_ROOT; };
+		60E1F966272A4D6C836ADC7C /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/bitwriter.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bitwriter.c; path = src/libFLAC/bitwriter.c; sourceTree = SOURCE_ROOT; };
+		66472B48B3FE4F64A553A373 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_sse41.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lpc_intrin_sse41.c; path = src/libFLAC/lpc_intrin_sse41.c; sourceTree = SOURCE_ROOT; };
+		6648AAF3D1DC4D66BA884DA0 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/utf8/utf8.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = utf8.c; path = src/share/utf8/utf8.c; sourceTree = SOURCE_ROOT; };
+		68314ACDAC5E42E194FAC9EA /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC++/stream_decoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stream_decoder.cpp; path = "src/libFLAC++/stream_decoder.cpp"; sourceTree = SOURCE_ROOT; };
+		6A27E04D020640E8A1432C62 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/alloc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alloc.c; path = src/share/grabbag/alloc.c; sourceTree = SOURCE_ROOT; };
+		6A969794158B4C78B0AEB190 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/microbench/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = microbench/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6EE88743965B4AFD82D086EB /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/fixed_intrin_ssse3.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fixed_intrin_ssse3.c; path = src/libFLAC/fixed_intrin_ssse3.c; sourceTree = SOURCE_ROOT; };
+		76C3688CCFB843DBB7B0D004 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/float.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = float.c; path = src/libFLAC/float.c; sourceTree = SOURCE_ROOT; };
+		7A7B37A63B9C4EB0AC568469 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stream_encoder.c; path = src/libFLAC/stream_encoder.c; sourceTree = SOURCE_ROOT; };
+		7BE09DF3F4C24576B336FFA9 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/cuesheet.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cuesheet.c; path = src/share/grabbag/cuesheet.c; sourceTree = SOURCE_ROOT; };
+		7D8E2DA031584E4087C2A6DC /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/getopt/getopt1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = getopt1.c; path = src/share/getopt/getopt1.c; sourceTree = SOURCE_ROOT; };
+		8025AFDFBAAE446DB9991692 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_avx2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lpc_intrin_avx2.c; path = src/libFLAC/lpc_intrin_avx2.c; sourceTree = SOURCE_ROOT; };
+		86C82DB211F7466D8D3E76CA /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder_intrin_ssse3.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stream_encoder_intrin_ssse3.c; path = src/libFLAC/stream_encoder_intrin_ssse3.c; sourceTree = SOURCE_ROOT; };
+		874479B73D7548B6B52BC1F9 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/utf8/CMakeFiles/utf8.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/Xcode/src/share/utf8/CMakeFiles/utf8.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		8B0859FD02384B4F858E4AEB /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/utf8/charset.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = charset.c; path = src/share/utf8/charset.c; sourceTree = SOURCE_ROOT; };
+		8C5FA1D3B08F445A988EEA0E /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/replaygain_synthesis/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/share/replaygain_synthesis/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		901F03405577488AA72217CB /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/grabbag/CMakeFiles/grabbag.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/Xcode/src/share/grabbag/CMakeFiles/grabbag.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		99685A071BBF449A93E920DF /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/replaygain_analysis/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/share/replaygain_analysis/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9B8C825317A043C5B9CFA58C /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/getopt/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/share/getopt/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9C1EAD46621F40D883B80DDD /* replaygain_synthesis */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libreplaygain_synthesis.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3639400DC848918AECFC4E /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/utf8/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/share/utf8/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A0422351A6E8479A98A6C880 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A10C1AF7A9E1454BB4502BB8 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/utf8/iconvert.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iconvert.c; path = src/share/utf8/iconvert.c; sourceTree = SOURCE_ROOT; };
+		A59F3554DFBD4CF788D9525B /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/utils/flacdiff/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/utils/flacdiff/main.cpp; sourceTree = SOURCE_ROOT; };
+		A8086726EB43459D83889080 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/doc/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = doc/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AA408994F24740EA9CBE537A /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_decoder.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stream_decoder.c; path = src/libFLAC/stream_decoder.c; sourceTree = SOURCE_ROOT; };
+		AED306A258E64DF1A37E9B7D /* utf8 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libutf8.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35417E97B92476AA0BF0E6B /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/replaygain_synthesis/replaygain_synthesis.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = replaygain_synthesis.c; path = src/share/replaygain_synthesis/replaygain_synthesis.c; sourceTree = SOURCE_ROOT; };
+		B461B8CDA6304ECDA52954FE /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/fixed.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fixed.c; path = src/libFLAC/fixed.c; sourceTree = SOURCE_ROOT; };
+		B65568CB940148CE9E76C230 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/replaygain.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = replaygain.c; path = src/share/grabbag/replaygain.c; sourceTree = SOURCE_ROOT; };
+		B6EF73B739854ED7AAE08F14 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/microbench/CMakeFiles/benchmark_residual.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/Xcode/microbench/CMakeFiles/benchmark_residual.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		B8535A4B720247A0A4035BCF /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_vsx.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lpc_intrin_vsx.c; path = src/libFLAC/lpc_intrin_vsx.c; sourceTree = SOURCE_ROOT; };
+		BECDFABBAB074877A5885C28 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/metadata_object.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = metadata_object.c; path = src/libFLAC/metadata_object.c; sourceTree = SOURCE_ROOT; };
+		C2AFD62F73EE4CD485B36426 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/share/grabbag/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C644F0730DC74D07B72D863C /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/md5.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = md5.c; path = src/libFLAC/md5.c; sourceTree = SOURCE_ROOT; };
+		C9E31CEFD6CF430FA7A62D87 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/memory.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = memory.c; path = src/libFLAC/memory.c; sourceTree = SOURCE_ROOT; };
+		D242D57270E740908A7091A1 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/snprintf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = snprintf.c; path = src/share/grabbag/snprintf.c; sourceTree = SOURCE_ROOT; };
+		D2F3E5C9FAF14122A1DCFC31 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder_framing.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stream_encoder_framing.c; path = src/libFLAC/stream_encoder_framing.c; sourceTree = SOURCE_ROOT; };
+		D3E0951C2C5847049485ACF6 /* flacdiff */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = flacdiff; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FCD87DE9804791BB5545E1 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/crc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = crc.c; path = src/libFLAC/crc.c; sourceTree = SOURCE_ROOT; };
+		D7AA304CECFD46848AB82E29 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lpc.c; path = src/libFLAC/lpc.c; sourceTree = SOURCE_ROOT; };
+		DCC92CF90F4B4E88885D9A56 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/microbench/util.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = util.c; path = microbench/util.c; sourceTree = SOURCE_ROOT; };
+		E52BC6F875254CB4AB3B8F02 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_sse.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lpc_intrin_sse.c; path = src/libFLAC/lpc_intrin_sse.c; sourceTree = SOURCE_ROOT; };
+		E83F809A2F9D4F2EB0E4B18B /* benchmark_residual */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = benchmark_residual; sourceTree = BUILT_PRODUCTS_DIR; };
+		E923AFA639BF498E92045214 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/libFLAC/window.c; sourceTree = SOURCE_ROOT; };
+		EB498DFC2A344761AB01B65E /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lpc_intrin_sse2.c; path = src/libFLAC/lpc_intrin_sse2.c; sourceTree = SOURCE_ROOT; };
+		F94ADAE0F6BE4469B637D318 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/bitmath.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bitmath.c; path = src/libFLAC/bitmath.c; sourceTree = SOURCE_ROOT; };
+		FBDE2070BAFC427D905088DD /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC++/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "src/libFLAC++/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		FDCC9A5AAE264AF2BB7035C9 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/microbench/benchmark_residual.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = benchmark_residual.c; path = microbench/benchmark_residual.c; sourceTree = SOURCE_ROOT; };
+		FF53DF51AADC4D87A480BEE8 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/bitreader.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bitreader.c; path = src/libFLAC/bitreader.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33986CC472EC470C82C18FA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D32BFCA9444CE2905B03A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5808A668306D4601B7294F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F59CF3859FB464DB36E8570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B510CE1792FE47F682C312A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0AF816C30564404BF97CECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D923C838A1254145B31A1EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4514F49906342838BD74AA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE93E54B79D1410FB7C9AD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06DCF95482D24773915B7E2A /* FLAC */ = {
+			isa = PBXGroup;
+			children = (
+				7ED3E4549A42410B9E594118 /* Source Files */,
+				287E7536B6DA4AA590BF1AB9 /* Resources */,
+				152DB7863B8F4A6CA89F0382 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/CMakeLists.txt */,
+			);
+			name = FLAC;
+			sourceTree = "<group>";
+		};
+		13F57BAA92F84E26860CB978 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6EF73B739854ED7AAE08F14 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/microbench/CMakeFiles/benchmark_residual.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		147E284AAD2F4CF583F12801 /* getopt */ = {
+			isa = PBXGroup;
+			children = (
+				182BE7439AEE404A86B2726E /* Source Files */,
+				47FD823634044950857A952A /* Resources */,
+				9B8C825317A043C5B9CFA58C /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/getopt/CMakeLists.txt */,
+			);
+			name = getopt;
+			sourceTree = "<group>";
+		};
+		182BE7439AEE404A86B2726E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				31407C763A404E6EBA41F885 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/getopt/getopt.c */,
+				7D8E2DA031584E4087C2A6DC /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/getopt/getopt1.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		287E7536B6DA4AA590BF1AB9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A17BFA68D304385980F10C8 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC/CMakeFiles/FLAC.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2E4453BB7C7B43A0B7D40C58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36B86879BB244EBFAA4529B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2052E634C7284E25A31EB87C /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/replaygain_synthesis/CMakeFiles/replaygain_synthesis.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		47FD823634044950857A952A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18423B78A3674AFB9F6846AD /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/getopt/CMakeFiles/getopt.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		490FC0D8FB9745DDA7BD08B7 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B35417E97B92476AA0BF0E6B /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/replaygain_synthesis/replaygain_synthesis.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		66CAD165F740478DAE89BBF4 /* grabbag */ = {
+			isa = PBXGroup;
+			children = (
+				BF03BE3A2988468D805076E8 /* Source Files */,
+				F90AAE2B66A0450F9710BAD7 /* Resources */,
+				C2AFD62F73EE4CD485B36426 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/CMakeLists.txt */,
+			);
+			name = grabbag;
+			sourceTree = "<group>";
+		};
+		68FFA08FDDF640E6A0CD3653 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				30C831AA77FD4DA8BE0D6F88 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/replaygain_analysis/replaygain_analysis.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		74F30A81544740ADAF2C92F7 /* benchmark_residual */ = {
+			isa = PBXGroup;
+			children = (
+				FAECFB064B2448768401BC95 /* Source Files */,
+				13F57BAA92F84E26860CB978 /* Resources */,
+				6A969794158B4C78B0AEB190 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/microbench/CMakeLists.txt */,
+			);
+			name = benchmark_residual;
+			sourceTree = "<group>";
+		};
+		75FD3CCFA7004DB19B52EB14 = {
+			isa = PBXGroup;
+			children = (
+				96F1682EBED44C9289E6EC90 /* ALL_BUILD */,
+				A2DC30A8A770473489CA90A4 /* FLAC-doxygen */,
+				06DCF95482D24773915B7E2A /* FLAC */,
+				9A7880F7B3AE4A99A646F0B4 /* FLAC++ */,
+				9E57BDFB6EE345E8AFFDB8B1 /* replaygain_analysis */,
+				B58556074B6241A79AF64506 /* replaygain_synthesis */,
+				147E284AAD2F4CF583F12801 /* getopt */,
+				96540EB9AF7740C9948EC7F6 /* utf8 */,
+				66CAD165F740478DAE89BBF4 /* grabbag */,
+				A0A882F77E8A44CBB60D7B7F /* flacdiff */,
+				74F30A81544740ADAF2C92F7 /* benchmark_residual */,
+				EA5017BF7CC84EF0AD307D5A /* Products */,
+				2E4453BB7C7B43A0B7D40C58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7ED3E4549A42410B9E594118 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F94ADAE0F6BE4469B637D318 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/bitmath.c */,
+				FF53DF51AADC4D87A480BEE8 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/bitreader.c */,
+				60E1F966272A4D6C836ADC7C /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/bitwriter.c */,
+				4AB71C5859534D82A954F27D /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/cpu.c */,
+				D3FCD87DE9804791BB5545E1 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/crc.c */,
+				B461B8CDA6304ECDA52954FE /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/fixed.c */,
+				1DF9D7C15F8E4E27A0AF69AB /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/fixed_intrin_sse2.c */,
+				6EE88743965B4AFD82D086EB /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/fixed_intrin_ssse3.c */,
+				76C3688CCFB843DBB7B0D004 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/float.c */,
+				0BEDB44CC32C4021B2E64380 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/format.c */,
+				D7AA304CECFD46848AB82E29 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc.c */,
+				8025AFDFBAAE446DB9991692 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_avx2.c */,
+				E52BC6F875254CB4AB3B8F02 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_sse.c */,
+				EB498DFC2A344761AB01B65E /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_sse2.c */,
+				66472B48B3FE4F64A553A373 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_sse41.c */,
+				B8535A4B720247A0A4035BCF /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_vsx.c */,
+				C644F0730DC74D07B72D863C /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/md5.c */,
+				C9E31CEFD6CF430FA7A62D87 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/memory.c */,
+				51756621235D4F8BA71E462A /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/metadata_iterators.c */,
+				BECDFABBAB074877A5885C28 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/metadata_object.c */,
+				AA408994F24740EA9CBE537A /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_decoder.c */,
+				7A7B37A63B9C4EB0AC568469 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder.c */,
+				D2F3E5C9FAF14122A1DCFC31 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder_framing.c */,
+				240ED625ABDE4AC883CE377C /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder_intrin_avx2.c */,
+				45ED5C42AA9D4682BDE4ADD3 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder_intrin_sse2.c */,
+				86C82DB211F7466D8D3E76CA /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder_intrin_ssse3.c */,
+				E923AFA639BF498E92045214 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8C3D01C6B681447CA3BF9402 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3E4EF1B3F44B4E3A93719FA0 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/utils/flacdiff/CMakeFiles/flacdiff.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8EBED1D23BBE473088DE08B0 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A59F3554DFBD4CF788D9525B /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/utils/flacdiff/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8FDC415D118747E9985CAFAB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		933B8E7880EE400E9D93B7E6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B0859FD02384B4F858E4AEB /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/utf8/charset.c */,
+				A10C1AF7A9E1454BB4502BB8 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/utf8/iconvert.c */,
+				6648AAF3D1DC4D66BA884DA0 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/utf8/utf8.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		96540EB9AF7740C9948EC7F6 /* utf8 */ = {
+			isa = PBXGroup;
+			children = (
+				933B8E7880EE400E9D93B7E6 /* Source Files */,
+				AF152380ACE4435B9AFEA34B /* Resources */,
+				9C3639400DC848918AECFC4E /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/utf8/CMakeLists.txt */,
+			);
+			name = utf8;
+			sourceTree = "<group>";
+		};
+		96F1682EBED44C9289E6EC90 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				8FDC415D118747E9985CAFAB /* CMake Rules */,
+				A0422351A6E8479A98A6C880 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		9A7880F7B3AE4A99A646F0B4 /* FLAC++ */ = {
+			isa = PBXGroup;
+			children = (
+				CC54EDA2EA0A4C24900B813E /* Source Files */,
+				B6774839DC804652B6569D4F /* Resources */,
+				FBDE2070BAFC427D905088DD /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC++/CMakeLists.txt */,
+			);
+			name = "FLAC++";
+			sourceTree = "<group>";
+		};
+		9E57BDFB6EE345E8AFFDB8B1 /* replaygain_analysis */ = {
+			isa = PBXGroup;
+			children = (
+				68FFA08FDDF640E6A0CD3653 /* Source Files */,
+				AAF403927C0145E7BF04D3AE /* Resources */,
+				99685A071BBF449A93E920DF /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/replaygain_analysis/CMakeLists.txt */,
+			);
+			name = replaygain_analysis;
+			sourceTree = "<group>";
+		};
+		A0A882F77E8A44CBB60D7B7F /* flacdiff */ = {
+			isa = PBXGroup;
+			children = (
+				8EBED1D23BBE473088DE08B0 /* Source Files */,
+				8C3D01C6B681447CA3BF9402 /* Resources */,
+				3C7640811EFF4ACC98192551 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/utils/flacdiff/CMakeLists.txt */,
+			);
+			name = flacdiff;
+			sourceTree = "<group>";
+		};
+		A2DC30A8A770473489CA90A4 /* FLAC-doxygen */ = {
+			isa = PBXGroup;
+			children = (
+				CFC01DDFE2C4453C92E3A172 /* CMake Rules */,
+				A8086726EB43459D83889080 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/doc/CMakeLists.txt */,
+			);
+			name = "FLAC-doxygen";
+			sourceTree = "<group>";
+		};
+		AAF403927C0145E7BF04D3AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				268D2B101F314ADCBC3D592A /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/replaygain_analysis/CMakeFiles/replaygain_analysis.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AF152380ACE4435B9AFEA34B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				874479B73D7548B6B52BC1F9 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/utf8/CMakeFiles/utf8.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B58556074B6241A79AF64506 /* replaygain_synthesis */ = {
+			isa = PBXGroup;
+			children = (
+				490FC0D8FB9745DDA7BD08B7 /* Source Files */,
+				36B86879BB244EBFAA4529B2 /* Resources */,
+				8C5FA1D3B08F445A988EEA0E /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/replaygain_synthesis/CMakeLists.txt */,
+			);
+			name = replaygain_synthesis;
+			sourceTree = "<group>";
+		};
+		B6774839DC804652B6569D4F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				303B664A60AC4931BA36D350 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC++/CMakeFiles/FLAC++.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BF03BE3A2988468D805076E8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A27E04D020640E8A1432C62 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/alloc.c */,
+				7BE09DF3F4C24576B336FFA9 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/cuesheet.c */,
+				28564A6550FD488AADAC67F0 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/file.c */,
+				121AC6CDEE4146F79D2C3F23 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/picture.c */,
+				B65568CB940148CE9E76C230 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/replaygain.c */,
+				46C9E44D1A0741C4AAC41047 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/seektable.c */,
+				D242D57270E740908A7091A1 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/snprintf.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		CC54EDA2EA0A4C24900B813E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DCCE1843FCA4B0DA523E697 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC++/metadata.cpp */,
+				68314ACDAC5E42E194FAC9EA /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC++/stream_decoder.cpp */,
+				559DDA3230EF4518BA3AE646 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC++/stream_encoder.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		CFC01DDFE2C4453C92E3A172 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		EA5017BF7CC84EF0AD307D5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0620C9ABE2E942FBB6FE3FA4 /* FLAC */,
+				1C6C9B30BFE04EB7ADD38E68 /* FLAC++ */,
+				E83F809A2F9D4F2EB0E4B18B /* benchmark_residual */,
+				D3E0951C2C5847049485ACF6 /* flacdiff */,
+				556E49BB95914DE9AA286ED2 /* getopt */,
+				3B770D4E4E5C4CB6BFEEE785 /* grabbag */,
+				0A6A93C9B5BC4E89BEBF2EEF /* replaygain_analysis */,
+				9C1EAD46621F40D883B80DDD /* replaygain_synthesis */,
+				AED306A258E64DF1A37E9B7D /* utf8 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F90AAE2B66A0450F9710BAD7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				901F03405577488AA72217CB /* /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/grabbag/CMakeFiles/grabbag.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FAECFB064B2448768401BC95 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC9A5AAE264AF2BB7035C9 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/microbench/benchmark_residual.c */,
+				DCC92CF90F4B4E88885D9A56 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/microbench/util.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		206822B0450F4244A3C5567F /* FLAC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E169C9AEB4457799E2B390 /* Build configuration list for PBXNativeTarget "FLAC" */;
+			buildPhases = (
+				3117E3D386F44979AD38BFFC /* Sources */,
+				7F59CF3859FB464DB36E8570 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0E745E34D324F6BBA498261 /* PBXTargetDependency */,
+			);
+			name = FLAC;
+			productName = FLAC;
+			productReference = 0620C9ABE2E942FBB6FE3FA4 /* FLAC */;
+			productType = "com.apple.product-type.library.static";
+		};
+		450757BC1A154596B3656874 /* utf8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2206EC4CAF4442FA88E506C7 /* Build configuration list for PBXNativeTarget "utf8" */;
+			buildPhases = (
+				E25568B00C94479BA29F3EB1 /* Sources */,
+				5808A668306D4601B7294F8D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33D3231BA1DE41089E84EF3F /* PBXTargetDependency */,
+				C49B14E76FD34A3294727571 /* PBXTargetDependency */,
+				5E3FBC937823436BA9B43F3F /* PBXTargetDependency */,
+				1EA3AF20C56049B5B6C121B3 /* PBXTargetDependency */,
+			);
+			name = utf8;
+			productName = utf8;
+			productReference = AED306A258E64DF1A37E9B7D /* utf8 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5B2DE3F3C60E4229828609B8 /* benchmark_residual */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D15C2CD01045CA90FFCF59 /* Build configuration list for PBXNativeTarget "benchmark_residual" */;
+			buildPhases = (
+				4BC62B6A068D4D3892E1A92A /* Sources */,
+				EE93E54B79D1410FB7C9AD16 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				671DC7F196B741618DE30872 /* PBXTargetDependency */,
+				08790AC96C784B058E26A092 /* PBXTargetDependency */,
+			);
+			name = benchmark_residual;
+			productName = benchmark_residual;
+			productReference = E83F809A2F9D4F2EB0E4B18B /* benchmark_residual */;
+			productType = "com.apple.product-type.application";
+		};
+		60B0B4BC095C4A1F95387A99 /* replaygain_analysis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510562F8F0594F6483FBF2C4 /* Build configuration list for PBXNativeTarget "replaygain_analysis" */;
+			buildPhases = (
+				DB17DE10EBA14363A1E1374C /* Sources */,
+				D0AF816C30564404BF97CECE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B230C67F689E42468B27A1E0 /* PBXTargetDependency */,
+			);
+			name = replaygain_analysis;
+			productName = replaygain_analysis;
+			productReference = 0A6A93C9B5BC4E89BEBF2EEF /* replaygain_analysis */;
+			productType = "com.apple.product-type.library.static";
+		};
+		64ED2C71FED047298FCA12FE /* FLAC++ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA394B5C10564C7988ECE200 /* Build configuration list for PBXNativeTarget "FLAC++" */;
+			buildPhases = (
+				EA5D048D3C2B4F7F903C3A9A /* Sources */,
+				E4514F49906342838BD74AA6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CE1228F624D43C8A946BFAF /* PBXTargetDependency */,
+				E0B48C87080B4CD9B94C7B05 /* PBXTargetDependency */,
+			);
+			name = "FLAC++";
+			productName = "FLAC++";
+			productReference = 1C6C9B30BFE04EB7ADD38E68 /* FLAC++ */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9C637E55219E4DFA97D46C8E /* grabbag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD69A0792CE4F068BC811D5 /* Build configuration list for PBXNativeTarget "grabbag" */;
+			buildPhases = (
+				25871F354CA54010A881C458 /* Sources */,
+				D923C838A1254145B31A1EA4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D224E3BE28294532AA2CB7E6 /* PBXTargetDependency */,
+				63681A3E43A9401AA1ED5806 /* PBXTargetDependency */,
+				75070B45574C4844BE5692B3 /* PBXTargetDependency */,
+			);
+			name = grabbag;
+			productName = grabbag;
+			productReference = 3B770D4E4E5C4CB6BFEEE785 /* grabbag */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AFA8A4DBF39F4372B0CD92FE /* replaygain_synthesis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72D3B13A35344798D5031E3 /* Build configuration list for PBXNativeTarget "replaygain_synthesis" */;
+			buildPhases = (
+				593F1CDB14DC4E58A9AF2EDE /* Sources */,
+				33986CC472EC470C82C18FA0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97958CB4551946F499CA13B0 /* PBXTargetDependency */,
+			);
+			name = replaygain_synthesis;
+			productName = replaygain_synthesis;
+			productReference = 9C1EAD46621F40D883B80DDD /* replaygain_synthesis */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C21A0DBD10904E89B27F2CA9 /* flacdiff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAC5A1CB8AFA4D3C9EBEFE08 /* Build configuration list for PBXNativeTarget "flacdiff" */;
+			buildPhases = (
+				3051818AAAD24CD0BF6E98D1 /* Sources */,
+				33D32BFCA9444CE2905B03A9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FF961E61B434923B0A4CEFF /* PBXTargetDependency */,
+				8B60D965571544098CA9E024 /* PBXTargetDependency */,
+				5AF1FDCAB1B9418EBEF11248 /* PBXTargetDependency */,
+			);
+			name = flacdiff;
+			productName = flacdiff;
+			productReference = D3E0951C2C5847049485ACF6 /* flacdiff */;
+			productType = "com.apple.product-type.application";
+		};
+		CE049AE3BF9A4500ACBEE46E /* getopt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4065AA547E1B43FA8DC25A69 /* Build configuration list for PBXNativeTarget "getopt" */;
+			buildPhases = (
+				1ED2A365F9DA4F9FBB3B1AAC /* Sources */,
+				B510CE1792FE47F682C312A0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81733C44ABD645F0B0630086 /* PBXTargetDependency */,
+			);
+			name = getopt;
+			productName = getopt;
+			productReference = 556E49BB95914DE9AA286ED2 /* getopt */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9755DC81D11E460A9B4978C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 0A14A6185BE9421BB835FAF0 /* Build configuration list for PBXProject "FLAC" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				62F006363EF042D4AD5FFECB /* Debug */,
+				0E6E9B1C93A843D2A8E8C915 /* Release */,
+				83AA711DB4934CBF93007BB4 /* MinSizeRel */,
+				452C775D3A7845B88FC6162B /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 75FD3CCFA7004DB19B52EB14;
+			projectDirPath = ../../;
+			projectRoot = "";
+			targets = (
+				12502BBD70784BA9A0C5DC1B /* ALL_BUILD */,
+				206822B0450F4244A3C5567F /* FLAC */,
+				64ED2C71FED047298FCA12FE /* FLAC++ */,
+				7E04503CF70F4309B7699112 /* FLAC-doxygen */,
+				F185A607AF7546FF89F4AACE /* ZERO_CHECK */,
+				5B2DE3F3C60E4229828609B8 /* benchmark_residual */,
+				C21A0DBD10904E89B27F2CA9 /* flacdiff */,
+				CE049AE3BF9A4500ACBEE46E /* getopt */,
+				9C637E55219E4DFA97D46C8E /* grabbag */,
+				645F55AABB0C4C10B964C7BA /* install */,
+				B4945C0E65F649B2A69A35EE /* package */,
+				60B0B4BC095C4A1F95387A99 /* replaygain_analysis */,
+				AFA8A4DBF39F4372B0CD92FE /* replaygain_synthesis */,
+				450757BC1A154596B3656874 /* utf8 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4B1E570B354CDD857AB5428B /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode
+  make -f /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode
+  make -f /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode
+  make -f /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode
+  make -f /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode
+  /usr/local/Cellar/cmake/3.19.7/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode
+  /usr/local/Cellar/cmake/3.19.7/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode
+  /usr/local/Cellar/cmake/3.19.7/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode
+  /usr/local/Cellar/cmake/3.19.7/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		5F81072EAA36F47E448130EA /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		661D9C604B3B91332E7543CC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6FE526ECAC53755E0904C2C9 /* Generate doc/CMakeFiles/FLAC-doxygen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/doc/Doxyfile.FLAC-doxygen"			);
+			name = "Generate doc/CMakeFiles/FLAC-doxygen";
+			outputPaths = (
+"/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/doc/CMakeFiles/FLAC-doxygen"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/yoshinaka/projects/buffalo/rakureco/flac/doc
+  /usr/local/Cellar/cmake/3.19.7/bin/cmake -E make_directory /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/doc
+  /usr/local/bin/doxygen /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/doc/Doxyfile.FLAC-doxygen
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/yoshinaka/projects/buffalo/rakureco/flac/doc
+  /usr/local/Cellar/cmake/3.19.7/bin/cmake -E make_directory /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/doc
+  /usr/local/bin/doxygen /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/doc/Doxyfile.FLAC-doxygen
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/yoshinaka/projects/buffalo/rakureco/flac/doc
+  /usr/local/Cellar/cmake/3.19.7/bin/cmake -E make_directory /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/doc
+  /usr/local/bin/doxygen /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/doc/Doxyfile.FLAC-doxygen
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/yoshinaka/projects/buffalo/rakureco/flac/doc
+  /usr/local/Cellar/cmake/3.19.7/bin/cmake -E make_directory /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/doc
+  /usr/local/bin/doxygen /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/doc/Doxyfile.FLAC-doxygen
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode
+  /usr/local/Cellar/cmake/3.19.7/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode
+  /usr/local/Cellar/cmake/3.19.7/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode
+  /usr/local/Cellar/cmake/3.19.7/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode
+  /usr/local/Cellar/cmake/3.19.7/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9423103034EFF1D37672CF01 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ED2A365F9DA4F9FBB3B1AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9CBA1DFF71A4FEB9A5EA92E /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/getopt/getopt.c */,
+				09C4AE72E63E441A8E4F3A84 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/getopt/getopt1.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25871F354CA54010A881C458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F88FA9F0CC4D8EB1DAEEA5 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/alloc.c */,
+				C038CA47900A4D2ABA8AE3C2 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/cuesheet.c */,
+				D214593A6E914C8BABC04062 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/file.c */,
+				87A4DD3DE6F44207B4397E5F /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/picture.c */,
+				6F566BA0A3D3429C87B7936C /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/replaygain.c */,
+				3430A0904A8B428490F8DF27 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/seektable.c */,
+				C98B33A504544D35B61D74DA /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/grabbag/snprintf.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3051818AAAD24CD0BF6E98D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1EDDF052975433EBE7811BF /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/utils/flacdiff/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3117E3D386F44979AD38BFFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322ACB9F88814C4EBB59D8A9 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/bitmath.c */,
+				243F425C8D8B485A96A4F63A /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/bitreader.c */,
+				585313277E4143FEAE340109 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/bitwriter.c */,
+				F49F01A3F94846F8B69AB98D /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/cpu.c */,
+				C7CCADF3019D4EAEAD935EA7 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/crc.c */,
+				90D5EF3929634C9C8E45EDB1 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/fixed.c */,
+				A7A5C647D70C4AF1B326CD75 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/fixed_intrin_sse2.c */,
+				0A2FC72BFF0244C196996A1D /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/fixed_intrin_ssse3.c */,
+				0563521FD5194E2885207C8B /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/float.c */,
+				339C6B9714D44277860F8B82 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/format.c */,
+				926137F9CAC24F5AA916B614 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc.c */,
+				76567F2103CC4432A45BA823 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_avx2.c */,
+				BE735AB22CA448E1B712B1FD /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_sse.c */,
+				87814956D96945CB9DD98BCF /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_sse2.c */,
+				A3FC589215C8481098FB8C34 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_sse41.c */,
+				F85A010BC5954810A0F28710 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/lpc_intrin_vsx.c */,
+				4E3CEB60696A435FAC8F681A /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/md5.c */,
+				3FD29EBE5361486E9C036B37 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/memory.c */,
+				4C3A609129584312A963F34D /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/metadata_iterators.c */,
+				9A2FAAE5748848A7B8456EB0 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/metadata_object.c */,
+				D1784C8913AD46139E01E29F /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_decoder.c */,
+				B10191871E2042938AF2A9E9 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder.c */,
+				DFE05881A3364613B76608FC /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder_framing.c */,
+				F42860C6A089400485EF44FD /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder_intrin_avx2.c */,
+				3D9598739564434C881877A8 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder_intrin_sse2.c */,
+				775FE3B9D9E34C159C13673F /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/stream_encoder_intrin_ssse3.c */,
+				9B88403BD209484489625601 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC62B6A068D4D3892E1A92A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F75461B4F324EF2A23529FE /* /Users/yoshinaka/projects/buffalo/rakureco/flac/microbench/benchmark_residual.c */,
+				9684C6E6E9564EB1A50ECDC5 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/microbench/util.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593F1CDB14DC4E58A9AF2EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDB803ED1FA4DA3B5194570 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/replaygain_synthesis/replaygain_synthesis.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB17DE10EBA14363A1E1374C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C20A4AA3FC4CECBE5AF7BE /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/replaygain_analysis/replaygain_analysis.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25568B00C94479BA29F3EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D838ABE16B474586EDB349 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/utf8/charset.c */,
+				F6198D64E12D40BA9B044FA8 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/utf8/iconvert.c */,
+				F41A22128CFE497D849D3240 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/share/utf8/utf8.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5D048D3C2B4F7F903C3A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A917C4A914704BBAAAD672C7 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC++/metadata.cpp */,
+				2A014DB4B99C4F32B055273F /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC++/stream_decoder.cpp */,
+				AF9AD0141357457E9C382282 /* /Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC++/stream_encoder.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01D454C491AD4B208D03C754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 206822B0450F4244A3C5567F /* FLAC */;
+			targetProxy = 1213BE5B4B814AB9AC4334D9 /* PBXContainerItemProxy */;
+		};
+		08790AC96C784B058E26A092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F185A607AF7546FF89F4AACE /* ZERO_CHECK */;
+			targetProxy = 98683241ADAF48739C88E21F /* PBXContainerItemProxy */;
+		};
+		0C430FB6465B4B288415E23C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B2DE3F3C60E4229828609B8 /* benchmark_residual */;
+			targetProxy = 2AB0EB84268A4FA4873AD384 /* PBXContainerItemProxy */;
+		};
+		0CE1228F624D43C8A946BFAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 206822B0450F4244A3C5567F /* FLAC */;
+			targetProxy = 64BC358DB5AF43CA87565739 /* PBXContainerItemProxy */;
+		};
+		0DBEE8FC710F444E8577348E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64ED2C71FED047298FCA12FE /* FLAC++ */;
+			targetProxy = FEB54A33B0ED4EF9A694A8A8 /* PBXContainerItemProxy */;
+		};
+		16B2282286154694B3B728AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFA8A4DBF39F4372B0CD92FE /* replaygain_synthesis */;
+			targetProxy = 04C3F2625ACA43D4AC4E69F9 /* PBXContainerItemProxy */;
+		};
+		1BFEEBBE538340239C971612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F185A607AF7546FF89F4AACE /* ZERO_CHECK */;
+			targetProxy = AFA9E3DC669C41C592FF2480 /* PBXContainerItemProxy */;
+		};
+		1EA3AF20C56049B5B6C121B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F185A607AF7546FF89F4AACE /* ZERO_CHECK */;
+			targetProxy = 2D2572546F4F47B7820391E6 /* PBXContainerItemProxy */;
+		};
+		32EFE9BB3D864308A02C0219 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F185A607AF7546FF89F4AACE /* ZERO_CHECK */;
+			targetProxy = B70053CA135A4F229E0FCA9F /* PBXContainerItemProxy */;
+		};
+		33D3231BA1DE41089E84EF3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 206822B0450F4244A3C5567F /* FLAC */;
+			targetProxy = A2A4C9BC39674F3EBF415422 /* PBXContainerItemProxy */;
+		};
+		438A10ACBBEA41D489F0EADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60B0B4BC095C4A1F95387A99 /* replaygain_analysis */;
+			targetProxy = D8414CD757644DBE931C6A62 /* PBXContainerItemProxy */;
+		};
+		4FF961E61B434923B0A4CEFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 206822B0450F4244A3C5567F /* FLAC */;
+			targetProxy = 97A2D47B84EE4C56A95E60DC /* PBXContainerItemProxy */;
+		};
+		5AF1FDCAB1B9418EBEF11248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F185A607AF7546FF89F4AACE /* ZERO_CHECK */;
+			targetProxy = FD257A63A7764E1395336E56 /* PBXContainerItemProxy */;
+		};
+		5E3FBC937823436BA9B43F3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C637E55219E4DFA97D46C8E /* grabbag */;
+			targetProxy = BA22422A2BE7427FAE826B07 /* PBXContainerItemProxy */;
+		};
+		63681A3E43A9401AA1ED5806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60B0B4BC095C4A1F95387A99 /* replaygain_analysis */;
+			targetProxy = 1868DB949C234AAA9A048C7F /* PBXContainerItemProxy */;
+		};
+		6578513BDF5C4FB68670940D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C21A0DBD10904E89B27F2CA9 /* flacdiff */;
+			targetProxy = 115FD28D8AF641929BCD55DD /* PBXContainerItemProxy */;
+		};
+		671DC7F196B741618DE30872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 206822B0450F4244A3C5567F /* FLAC */;
+			targetProxy = C21509E781A34B5E8ABAAD26 /* PBXContainerItemProxy */;
+		};
+		6CCEBB89146B418EB7D03D7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12502BBD70784BA9A0C5DC1B /* ALL_BUILD */;
+			targetProxy = 5DF4BBD5248946C6809ABDEB /* PBXContainerItemProxy */;
+		};
+		75070B45574C4844BE5692B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F185A607AF7546FF89F4AACE /* ZERO_CHECK */;
+			targetProxy = 4F2A00045FE84E18B7A4FC4F /* PBXContainerItemProxy */;
+		};
+		81733C44ABD645F0B0630086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F185A607AF7546FF89F4AACE /* ZERO_CHECK */;
+			targetProxy = F76E2AC92B0C411B8D63F18E /* PBXContainerItemProxy */;
+		};
+		8B60D965571544098CA9E024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64ED2C71FED047298FCA12FE /* FLAC++ */;
+			targetProxy = 4504B3A4FFF6407289800C42 /* PBXContainerItemProxy */;
+		};
+		97958CB4551946F499CA13B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F185A607AF7546FF89F4AACE /* ZERO_CHECK */;
+			targetProxy = 0EC24179B72042D29DA64209 /* PBXContainerItemProxy */;
+		};
+		9DDCAF6FBDEC47F88D878B14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 450757BC1A154596B3656874 /* utf8 */;
+			targetProxy = D0F8DFB7A2E749F5A8662CFF /* PBXContainerItemProxy */;
+		};
+		A0E745E34D324F6BBA498261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F185A607AF7546FF89F4AACE /* ZERO_CHECK */;
+			targetProxy = 16968F40518A4771B99200D7 /* PBXContainerItemProxy */;
+		};
+		B230C67F689E42468B27A1E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F185A607AF7546FF89F4AACE /* ZERO_CHECK */;
+			targetProxy = C385C2C575F64C5D81587F47 /* PBXContainerItemProxy */;
+		};
+		B5FE22B22570468F8DDCF8D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12502BBD70784BA9A0C5DC1B /* ALL_BUILD */;
+			targetProxy = B297B2078B184E9FA5F2B9AA /* PBXContainerItemProxy */;
+		};
+		C49B14E76FD34A3294727571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60B0B4BC095C4A1F95387A99 /* replaygain_analysis */;
+			targetProxy = C8B4119061CD42D1A731AA85 /* PBXContainerItemProxy */;
+		};
+		C8BFE682CFBB4B00A56ECF2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE049AE3BF9A4500ACBEE46E /* getopt */;
+			targetProxy = A0B2EF2B64F54E1D98E2C499 /* PBXContainerItemProxy */;
+		};
+		D224E3BE28294532AA2CB7E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 206822B0450F4244A3C5567F /* FLAC */;
+			targetProxy = 7FBDE5E3F5CB466D9A886238 /* PBXContainerItemProxy */;
+		};
+		DDF299F00C3B4BC0955BF55D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C637E55219E4DFA97D46C8E /* grabbag */;
+			targetProxy = F6B9B7D99B83443FB6497B24 /* PBXContainerItemProxy */;
+		};
+		E0B48C87080B4CD9B94C7B05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F185A607AF7546FF89F4AACE /* ZERO_CHECK */;
+			targetProxy = 27914B3952F547B6A32E289A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05A2AC7F988C41E1BFDFD01B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "FLAC-doxygen";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/doc;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		08C3947E4CD644C68AF66F6E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "FLAC-doxygen";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/doc;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		08E7987CFD8C48E6B3511153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		09A98E922674448EA5CED769 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H,FLAC__NO_DLL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline        -DNDEBUG -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = utf8;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/utf8;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1ABBF786CCFB4CB3BC6D220A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H,FLAC__NO_DLL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -DNDEBUG     -funroll-loops -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = grabbag;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/grabbag;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1FF1D05B8F704C2D9D3C9214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline    -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = getopt;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/getopt;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		20ECC710E53E49C78929B07F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2251F6E1E43A4462B866E1B6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		267986AC2DEA4C4EAE659E96 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		26A503C5DB0E47BB8E1AC4B3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2A93147BABD0422D974DFCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		33AB5E0F32F54870BC3FEE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		34DEB6C9FC64498D9DBB75BA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		395874F7A43F43FBBCFC01E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "FLAC-doxygen";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/doc;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3BD25E8FA1734AC79CB4904B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "FLAC-doxygen";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/doc;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4526D2EDFFA54BAE8C706A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H,FLAC__SYS_DARWIN,FLAC__NO_DLL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode,/Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/include);
+				INFOPLIST_FILE = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/microbench/CMakeFiles/benchmark_residual.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline    -Wdeclaration-after-statement ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC/Debug${EFFECTIVE_PLATFORM_NAME}/libFLAC.a","-lm");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = benchmark_residual;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/microbench;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		477A542985B44DDF9EA7BEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4B9E8F58705246BDAE8D3470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FLAC__NO_DLL,_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H,FLAC__NO_ASM);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode,/Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -DNDEBUG     -funroll-loops -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FLAC;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4DD708D960CD4901BB60EE55 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FLAC__NO_DLL,_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H,FLAC__NO_ASM);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode,/Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline        -DNDEBUG -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FLAC;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		518415B9517843E7A021ED62 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		55554F49D94B4564B028A1A2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		56191DEF2F9D450B8DD38199 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline        -DNDEBUG -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = replaygain_analysis;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/replaygain_analysis;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5B549A888CE141B0A859D635 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H,FLAC__SYS_DARWIN,FLAC__NO_DLL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode,/Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/include);
+				INFOPLIST_FILE = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/microbench/CMakeFiles/benchmark_residual.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -DNDEBUG -Wdeclaration-after-statement ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC/MinSizeRel${EFFECTIVE_PLATFORM_NAME}/libFLAC.a","-lm");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = benchmark_residual;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/microbench;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6371DE1BBEA74B60B560C8B9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H,FLAC__SYS_DARWIN,FLAC__NO_DLL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode,/Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/include);
+				INFOPLIST_FILE = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/microbench/CMakeFiles/benchmark_residual.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline        -DNDEBUG -Wdeclaration-after-statement ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}/libFLAC.a","-lm");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = benchmark_residual;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/microbench;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		679D07DD76F248F799231681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H,FLAC__NO_DLL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline    -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = grabbag;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/grabbag;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6B4A552151A7485A826C96BC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H,FLAC__NO_DLL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INFOPLIST_FILE = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/utils/flacdiff/CMakeFiles/flacdiff.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef     -DNDEBUG '-Weffc++' ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC++/MinSizeRel${EFFECTIVE_PLATFORM_NAME}/libFLAC++.a","/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC/MinSizeRel${EFFECTIVE_PLATFORM_NAME}/libFLAC.a","-lm");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = flacdiff;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/utils/flacdiff;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7439F527839C46A38BAC0C27 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline        -DNDEBUG -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = replaygain_synthesis;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/replaygain_synthesis;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		75590131CD994C9BBE4229A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H,FLAC__NO_DLL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INFOPLIST_FILE = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/utils/flacdiff/CMakeFiles/flacdiff.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef     -DNDEBUG '-Weffc++' ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC++/Release${EFFECTIVE_PLATFORM_NAME}/libFLAC++.a","/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC/Release${EFFECTIVE_PLATFORM_NAME}/libFLAC.a","-lm");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = flacdiff;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/utils/flacdiff;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7853F98466514B2D9861242C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FLAC__NO_DLL,_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H,FLAC__NO_ASM);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode,/Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline    -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FLAC;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		78B01531937C414289A859E4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H,FLAC__NO_DLL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline        -DNDEBUG -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = grabbag;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/grabbag;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7937D7816E524D05B2B4100C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline    -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = replaygain_synthesis;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/replaygain_synthesis;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8394FDB3D5DF45928467D8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		851F43A120954999AC1BC3A4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FLAC__NO_DLL,_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef        -DNDEBUG '-Weffc++' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "FLAC++";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC++";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8CE8243CAC904139AF884C82 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H,FLAC__NO_DLL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -DNDEBUG -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = utf8;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/utf8;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8E5307993B4C4506AD8FF6BD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		8FAA21B2CCFD4ED4BC541801 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FLAC__NO_DLL,_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H,FLAC__NO_ASM);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode,/Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -DNDEBUG -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FLAC;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		91727691822A49C1A770A404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline    -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = replaygain_analysis;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/replaygain_analysis;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9901CB6D7BF341E6A6442821 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9B7D17A46F8F46E9AE3ECAD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -DNDEBUG     -funroll-loops -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = getopt;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/getopt;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9CB7688CFF194CE494847842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/build;
+			};
+			name = Debug;
+		};
+		A965411A045448BCA803423E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H,FLAC__NO_DLL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline    -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = utf8;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/utf8;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AB0459FA554545949ABBCC86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H,FLAC__NO_DLL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INFOPLIST_FILE = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/utils/flacdiff/CMakeFiles/flacdiff.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef    '-Weffc++' ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC++/Debug${EFFECTIVE_PLATFORM_NAME}/libFLAC++.a","/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC/Debug${EFFECTIVE_PLATFORM_NAME}/libFLAC.a","-lm");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = flacdiff;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/utils/flacdiff;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		ABD58701E478461CB9974459 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline        -DNDEBUG -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = getopt;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/getopt;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AE8A926EC2664D0FA35F46FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/build;
+			};
+			name = Release;
+		};
+		B0F91F2AACC7438184392A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -DNDEBUG     -funroll-loops -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = replaygain_synthesis;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/replaygain_synthesis;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B21C0172D9A945DCBE92BDDA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -DNDEBUG -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = replaygain_analysis;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/replaygain_analysis;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B9C3392DCDFF42E0AB0BDD53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FLAC__NO_DLL,_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef     -DNDEBUG '-Weffc++' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "FLAC++";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC++";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C98A9036AB5B4EDBA29452F2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FLAC__NO_DLL,_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef     -DNDEBUG '-Weffc++' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "FLAC++";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC++";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CB303EB5FD1D452CB3A67B4E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -DNDEBUG -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = getopt;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/getopt;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D086452FADF44882A7BA83CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H,FLAC__SYS_DARWIN,FLAC__NO_DLL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode,/Users/yoshinaka/projects/buffalo/rakureco/flac/src/libFLAC/include);
+				INFOPLIST_FILE = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/microbench/CMakeFiles/benchmark_residual.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -DNDEBUG     -funroll-loops -Wdeclaration-after-statement ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC/Release${EFFECTIVE_PLATFORM_NAME}/libFLAC.a","-lm");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = benchmark_residual;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/microbench;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D21A70458B9D40C986C4C984 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H,FLAC__NO_DLL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -DNDEBUG -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = grabbag;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/grabbag;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DA2AF1614BAB46EAA2225EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -DNDEBUG     -funroll-loops -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = replaygain_analysis;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/replaygain_analysis;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DAA2CD765E9444FFB245A24B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FLAC__NO_DLL,_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef    '-Weffc++' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "FLAC++";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC++";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DB84C34F01204F85B20D1389 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H,FLAC__NO_DLL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INFOPLIST_FILE = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/utils/flacdiff/CMakeFiles/flacdiff.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef        -DNDEBUG '-Weffc++' ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC++/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}/libFLAC++.a","/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/libFLAC/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}/libFLAC.a","-lm");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = flacdiff;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/utils/flacdiff;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DEDFA1617C66498BB3144A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H,FLAC__NO_DLL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -DNDEBUG     -funroll-loops -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = utf8;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/utf8;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E6CE47F609C542B39634F03B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DARWIN_C_SOURCE,_POSIX_PTHREAD_SEMANTICS,__STDC_WANT_IEC_60559_BFP_EXT__,__STDC_WANT_IEC_60559_DFP_EXT__,__STDC_WANT_IEC_60559_FUNCS_EXT__,__STDC_WANT_IEC_60559_TYPES_EXT__,__STDC_WANT_LIB_EXT2__,__STDC_WANT_MATH_SPEC_FUNCS__,_TANDEM_SOURCE,HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yoshinaka/projects/buffalo/rakureco/flac/include,/Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -DNDEBUG -Wdeclaration-after-statement ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = replaygain_synthesis;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode/src/share/replaygain_synthesis;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EA156D874D2B47F99C72C8A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F6B0C67707EA460B93D71D92 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FB76125C47164B7797921B60 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FF2E1D7B3D1343EC8A34E4D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yoshinaka/projects/buffalo/rakureco/flac/build/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A14A6185BE9421BB835FAF0 /* Build configuration list for PBXProject "FLAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB7688CFF194CE494847842 /* Debug */,
+				AE8A926EC2664D0FA35F46FC /* Release */,
+				518415B9517843E7A021ED62 /* MinSizeRel */,
+				8E5307993B4C4506AD8FF6BD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0FE94043CBB84910A8FFBE3E /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20ECC710E53E49C78929B07F /* Debug */,
+				2A93147BABD0422D974DFCC6 /* Release */,
+				FB76125C47164B7797921B60 /* MinSizeRel */,
+				9901CB6D7BF341E6A6442821 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2206EC4CAF4442FA88E506C7 /* Build configuration list for PBXNativeTarget "utf8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A965411A045448BCA803423E /* Debug */,
+				DEDFA1617C66498BB3144A5B /* Release */,
+				8CE8243CAC904139AF884C82 /* MinSizeRel */,
+				09A98E922674448EA5CED769 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2EF5E46DEFA84F66AD1A8A5E /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8394FDB3D5DF45928467D8CE /* Debug */,
+				08E7987CFD8C48E6B3511153 /* Release */,
+				F6B0C67707EA460B93D71D92 /* MinSizeRel */,
+				55554F49D94B4564B028A1A2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		34D15C2CD01045CA90FFCF59 /* Build configuration list for PBXNativeTarget "benchmark_residual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4526D2EDFFA54BAE8C706A80 /* Debug */,
+				D086452FADF44882A7BA83CD /* Release */,
+				5B549A888CE141B0A859D635 /* MinSizeRel */,
+				6371DE1BBEA74B60B560C8B9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4065AA547E1B43FA8DC25A69 /* Build configuration list for PBXNativeTarget "getopt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF1D05B8F704C2D9D3C9214 /* Debug */,
+				9B7D17A46F8F46E9AE3ECAD9 /* Release */,
+				CB303EB5FD1D452CB3A67B4E /* MinSizeRel */,
+				ABD58701E478461CB9974459 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		510562F8F0594F6483FBF2C4 /* Build configuration list for PBXNativeTarget "replaygain_analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91727691822A49C1A770A404 /* Debug */,
+				DA2AF1614BAB46EAA2225EF6 /* Release */,
+				B21C0172D9A945DCBE92BDDA /* MinSizeRel */,
+				56191DEF2F9D450B8DD38199 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9C0A36A2D66D48A89940060C /* Build configuration list for PBXAggregateTarget "FLAC-doxygen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A2AC7F988C41E1BFDFD01B /* Debug */,
+				395874F7A43F43FBBCFC01E9 /* Release */,
+				3BD25E8FA1734AC79CB4904B /* MinSizeRel */,
+				08C3947E4CD644C68AF66F6E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A5291FE65CC34583B3E612FF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2E1D7B3D1343EC8A34E4D1 /* Debug */,
+				EA156D874D2B47F99C72C8A6 /* Release */,
+				267986AC2DEA4C4EAE659E96 /* MinSizeRel */,
+				34DEB6C9FC64498D9DBB75BA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B45C528C98794CF4AEA4E5E6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33AB5E0F32F54870BC3FEE0A /* Debug */,
+				477A542985B44DDF9EA7BEDA /* Release */,
+				26A503C5DB0E47BB8E1AC4B3 /* MinSizeRel */,
+				2251F6E1E43A4462B866E1B6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BAC5A1CB8AFA4D3C9EBEFE08 /* Build configuration list for PBXNativeTarget "flacdiff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0459FA554545949ABBCC86 /* Debug */,
+				75590131CD994C9BBE4229A1 /* Release */,
+				6B4A552151A7485A826C96BC /* MinSizeRel */,
+				DB84C34F01204F85B20D1389 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DFD69A0792CE4F068BC811D5 /* Build configuration list for PBXNativeTarget "grabbag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				679D07DD76F248F799231681 /* Debug */,
+				1ABBF786CCFB4CB3BC6D220A /* Release */,
+				D21A70458B9D40C986C4C984 /* MinSizeRel */,
+				78B01531937C414289A859E4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EA394B5C10564C7988ECE200 /* Build configuration list for PBXNativeTarget "FLAC++" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA2CD765E9444FFB245A24B /* Debug */,
+				B9C3392DCDFF42E0AB0BDD53 /* Release */,
+				C98A9036AB5B4EDBA29452F2 /* MinSizeRel */,
+				851F43A120954999AC1BC3A4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F4E169C9AEB4457799E2B390 /* Build configuration list for PBXNativeTarget "FLAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7853F98466514B2D9861242C /* Debug */,
+				4B9E8F58705246BDAE8D3470 /* Release */,
+				8FAA21B2CCFD4ED4BC541801 /* MinSizeRel */,
+				4DD708D960CD4901BB60EE55 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F72D3B13A35344798D5031E3 /* Build configuration list for PBXNativeTarget "replaygain_synthesis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7937D7816E524D05B2B4100C /* Debug */,
+				B0F91F2AACC7438184392A25 /* Release */,
+				E6CE47F609C542B39634F03B /* MinSizeRel */,
+				7439F527839C46A38BAC0C27 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9755DC81D11E460A9B4978C1 /* Project object */;
+}
